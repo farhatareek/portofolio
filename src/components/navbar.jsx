@@ -15,7 +15,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
-import personalLogo from '../assets/White and Dark Simple Personal Name Initials Logo (1).png'
+import personalLogo from '../assets/logo.png'
 import Link from 'next/link';
 
 const pages = [

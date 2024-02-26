@@ -4,11 +4,11 @@ import React, { useRef } from 'react'
 import { useScroll, motion, useTransform } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
-import image1 from '../assets/Neutral Shadow Background Digital Product Mockup Ad Instagram Story (1).png'
-import image2 from '../assets/Modern Neutral Mockup Website Design Services Promotion Instagram Story (2).png'
-import image3 from "../assets/Modern Neutral Mockup Website Design Services Promotion Instagram Story (1).png"
-import image4 from '../assets/Modern Neutral Digital Product Mockup Ad Instagram Story.png'
-import image5 from '../assets/Modern Neutral Mockup Website Design Services Promotion Instagram Story.png'
+import image1 from '../assets/userway.png'
+import image2 from '../assets/muilink.png'
+import image3 from "../assets/mazar.png"
+import image4 from '../assets/talbat.png'
+import image5 from '../assets/nationalcare.png'
 
 const projects = [
     {
