@@ -20,15 +20,12 @@
     "@tsparticles/engine": "^3.2.1",
     "@tsparticles/react": "^3.0.0",
     "animate.css": "^4.1.1",
-    "canvas": "^2.11.2",
     "framer-motion": "^11.0.3",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "react-particles": "^2.12.2",
-    "react-tsparticles": "^2.12.2",
     "styled-components": "^6.1.8",
-    "tsparticles": "^3.2.1",
     "tsparticles-slim": "^2.12.0"
   }
 }
