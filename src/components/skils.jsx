@@ -13,10 +13,9 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 
 export default function Skils() {
     return (
-        <Container sx={{ flexGrow: 2, overflow:"hidden" , color:"#fff", marginTop:"30px" }}>
+        <Container sx={{ flexGrow: 1, overflow:"hidden" , color:"#fff", marginTop:"30px" }}>
         <Typography sx={{fontSize:"25px" , textAlign:"center", paddingBottom:"60px"}}>Work Experience</Typography>
         {/* timeline bar for woek experience */}
-        <Grid container  >
         <Timeline position="alternate" >
         <TimelineItem>
         <TimelineSeparator>
@@ -26,7 +25,7 @@ export default function Skils() {
         </TimelineDot>
         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '60px', px: 2 }}>
         <Typography variant="h6" component="span">
         Freelancer Front end Developer 
         </Typography>
@@ -44,7 +43,7 @@ export default function Skils() {
         </TimelineDot>
         <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '19px', px: 2 }}>
         <Typography variant="h6" component="span">
         Front End Develope
         </Typography>
@@ -56,7 +55,6 @@ export default function Skils() {
         </TimelineContent>
         </TimelineItem>
         </Timeline>
-        </Grid>
         </Container>
     );
 }

@@ -8,7 +8,7 @@ import emailjs from '@emailjs/browser';
 
 const varient ={
   initial:{
-    y:500,
+    y:400,
     opacity:0
   },
   animate:{
@@ -46,7 +46,7 @@ export default function ContactPage() {
   };
   return (
     <Container  component={motion.div} variants={varient} initial='initial' whileInView="animate"
-    sx={{ position:"relative", top:{md:"250px", xs:"150px"}, display:"flex", justifyContent:"center"}}>
+    sx={{ position:"relative", top:"150px", display:"flex", justifyContent:"center"}}>
     <Grid ref={ref} component={motion.div} variants={varient} container>
     <Grid component={motion.div} variants={varient} item md={6} xs={12}>
       <Typography variant='h3' sx={{
@@ -108,7 +108,7 @@ export default function ContactPage() {
     ref={refform}
     onSubmit={sendEmail}
     initial={{opacity:0}}
-    transition={{delay:3,duration:1}}
+    transition={{delay:4,duration:1}}
     whileInView={{opacity:1}} 
     >
     <TextField name='name' type='text'   fullWidth required label="Name" />

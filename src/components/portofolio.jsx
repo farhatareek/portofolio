@@ -76,7 +76,7 @@ const Single = ({ project }) => {
           display: "flex",
           y
         }}>
-          <Grid md={8} item xs={10} sx={{marginLeft:{xs:"17px"}}} >
+          <Grid md={8} item xs={10} sx={{marginLeft:{xs:"20px"}}} >
           <Typography sx={{ fontSize: {md:"45px", xs:"25px"}, color: "#fff" }}>{project.title}</Typography>
           <Typography sx={{ color: "#fff", fontSize: "15px" }}>{project.desc}</Typography>
           <Button
