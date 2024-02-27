@@ -14,7 +14,7 @@ const projects = [
     {
     id: 1,
     title: "USERWAY",
-    image: image4,
+    image: image1,
     alt:"national care",
     http: "https://userwayapp.netlify.app/",
     desc: "userway is a website for testing tool for your website and make you feel how the users see your website"
@@ -30,7 +30,7 @@ const projects = [
   {
     id: 4,
     title: "MAZAR",
-    image: image1,
+    image: image3,
     alt:"national care",
     http: "https://mazar.netlify.app/",
     desc: "mazar is a website for social media campaign for exploring religious touristic places in Egypt"
@@ -40,7 +40,7 @@ const projects = [
     title: "TALBAT",
     alt:"national care",
     http: "https://farhatareek.github.io/e-commercee/",
-    image: image5,
+    image: image4,
     desc: "talbat is a clone website from the famous app talabat for food delivery and restaurants"
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     title: "NATIONALCARE",
     alt:"national care",
     http: "https://nationalcaremedical.netlify.app/",
-    image: image3,
+    image: image5,
     desc: "national care is a website for egyptian brand for skin care and cosmetics baised in cairo "
   }
 ]
@@ -58,7 +58,7 @@ const Single = ({ project }) => {
   const { scrollYProgress } = useScroll({
     target: ref,
   })
-  const y = useTransform(scrollYProgress, [0, 1], [-200, 200])
+  const y = useTransform(scrollYProgress, [0, 1], [-100, 100])
   return (
     <section ref={ref} style={{marginTop:"50px", display:"flex", justifyContent:"center"}}>
       <Grid container  style={{ display: "flex",marginTop:"50px", justifyContent: "center" }}>
@@ -76,8 +76,8 @@ const Single = ({ project }) => {
           display: "flex",
           y
         }}>
-          <Grid md={8} item xs={10} >
-          <Typography sx={{ fontSize: "45px", color: "#fff" }}>{project.title}</Typography>
+          <Grid md={8} item xs={10} sx={{marginLeft:{xs:"17px"}}} >
+          <Typography sx={{ fontSize: {md:"45px", xs:"25px"}, color: "#fff" }}>{project.title}</Typography>
           <Typography sx={{ color: "#fff", fontSize: "15px" }}>{project.desc}</Typography>
           <Button
             component={Link}

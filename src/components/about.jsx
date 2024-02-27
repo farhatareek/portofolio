@@ -69,6 +69,7 @@ const varients={
         download="Farha-PDF-document"
         target="_blank"
         rel="noopener noreferrer"
+        style={{textDecoration:"none"}}
         >
         <Button sx={{ paddingRight:" 40px",height:" 65px",
             lineHeight: "60px", color:"#fff",

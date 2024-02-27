@@ -46,10 +46,10 @@ export default function MainHome() {
             Communication background with 2 years of experience as a front-end developer. I specialize in
             building dynamic and user-friendly web experiences
             <Box sx={{paddingTop:"20px", display:"flex", justifyContent:"space-between"}}>
-            <Link href="/contact">
+            <Link href="/contact" style={{textDecoration:"none"}}>
             <Button className='conatctbtn' sx={{border:"1px solid #fff", color:"#fff"}}>Contact Me</Button>
             </Link>
-            <Link href='/portofolio'>
+            <Link href='/portofolio'style={{textDecoration:"none"}}>
             <Button className='viewbtn' sx={{border:"1px solid #fff",background:"#fff", color:"#2a2c39"}}>View My Work</Button>
             </Link>
             </Box>

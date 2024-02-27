@@ -75,8 +75,8 @@ section {
   z-index: -1;
 }
 .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border-color: #fff ;
+  border-color: #fff  !important;
  }
  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
-  color:#fff;
+  color:#fff !important;
  }
